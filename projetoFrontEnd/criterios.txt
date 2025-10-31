@@ -1,0 +1,11 @@
+1 - minimo de caracteres no campo Input 5
+
+2 - Colocar cores de Verde quando sucesso e vermelho quando Erro
+
+3 - Poder excluir os itens que foram adicionados na lista
+
+4 - Botão para editar o texto da lista
+
+5 - Opção de mudar a ordem da lista
+
+6 - Inserir um PNG na lista como opção

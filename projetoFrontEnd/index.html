@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista Interativa com Imagens</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Minha Lista</h1>
+
+    <div class="input-area">
+      <input id="itemInput" type="text" placeholder="Digite um item (mínimo 5 caracteres)">
+      
+      <div class="file-area">
+        <label for="imgInput">Escolher Imagem:</label>
+        <input id="imgInput" type="file" accept="image/png">
+      </div>
+
+      <button id="addBtn">Adicionar</button>
+      <p id="msg"></p>
+    </div>
+
+    <ul id="lista"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

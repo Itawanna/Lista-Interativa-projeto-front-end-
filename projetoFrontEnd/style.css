@@ -1,0 +1,125 @@
+body {
+    background-image:url(imagens/Winnie\ The\ Pooh\ Desktop\ Wallpaper\ Top\ Free\ Winnie\ The\ regarding.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+
+    /*centralizar tudo na tela*/
+    display: flex;
+    justify-content: center;/*centraliza na horizontal*/
+    align-items: center;/*centraliza na vertical*/
+
+    font-family: Arial, sans-serif;
+    color: white;
+  }
+
+.container {
+    background:rgba(red, green, blue, alpha);
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgb(150, 34, 136);
+    width: 350px;
+  }
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.input-area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.file-area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.file-area label {
+  font-size: 14px;
+}
+
+input[type="file"] {
+  flex-grow: 1;
+}
+
+button {
+    background-color: hwb(223 54% 4%);
+    color: white;
+    border: none;
+    padding: 10px 14px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+button:hover {
+    background-color:hwb(223 54% 4%);
+  }
+
+#msg {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+}
+
+.error {
+  color: red;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+    background: hwb(123 54% 19%);
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: 0.2s;
+  }
+
+li img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  border-radius: 4px;
+}
+
+li button {
+  margin-left: 5px;
+  padding: 5px 8px;
+  font-size: 12px;
+}
+
+li .text {
+  flex-grow: 1;
+  display: flex;
+  align-items: center;
+}
